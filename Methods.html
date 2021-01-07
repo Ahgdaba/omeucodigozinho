@@ -1,0 +1,25 @@
+<head>
+    <body>
+        <script>
+
+            function person(name,age) {
+
+                this.d = name
+                this.age = age
+
+                this.changeName = function (name) {
+                    
+                    this.d = name;
+                } 
+            }
+
+            let otavio = new person("lmao", 90)
+
+            otavio.changeName("Otario", 89)
+
+            console.log (otavio)
+
+
+        </script>
+    </body>
+</head>
